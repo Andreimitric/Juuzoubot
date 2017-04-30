@@ -12,7 +12,7 @@ const hook = new Discord.WebhookClient('webhook id', 'webhook token')
 const prefix = '$'
 
 // the token of your bot - https://discordapp.com/developers/applications/me
-const token = 'MzA3NDk2MjQ3MzY1OTkyNDQ4.C-Y1iQ.yAzLHayvn8xbe_J9aOb0CT5oTNA';
+const token = 'token';
 // the ready event is vital, it means that your bot will only start reacting to information
 // from Discord _after_ ready is emitted.
 bot.on('ready', () => {
